@@ -29,9 +29,6 @@ public class HashingGui extends JFrame {
         HashSuche s = new HashSuche();
         s.fuegeEin(332,30);
         s.showarray();
-        System.out.println(s.schluesselvorhanden(322));
-        System.out.println(s.suchePositionVon(322));
-        System.out.println(s.gibWertVon(322));
 
 
         b1.addActionListener(new ActionListener() {
